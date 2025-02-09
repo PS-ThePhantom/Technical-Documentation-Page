@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Technical Documentation Page" />
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>C++ Documentation</header>
+    <div class="divider"></div>
+    <div class="nav-link-container">
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Variables_in_C++">Variables in C++</a>
+      <a class="nav-link" href="#Function">Function</a>
+      <a class="nav-link" href="#Structs">Structs</a>
+      <a class="nav-link" href="#Class">Class</a>
+  </nav>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Some useful tips about getting started with C++</p>
+      <p>You will need a compiler and a text editor or a C++ IDE <br />
+        Test your code by printing "hello world" with the following code:</p>
+      <div class="code-block">
+        <code>
+            #include < stdio ><br/>
+            using namespace std;<br/><br/>
+
+            int main()<br/>
+            {<br/>
+              cout << "hello world" << endl;<br/>
+              return 0;<br/>
+            }
+          </code>
+      </div>
+    </section>
+
+    <section class="main-section" id="Variables_in_C++">
+      <header>Variables in C++</header>
+      <p>Some useful tips about variables in C++</p>
+      <p> Test declaring variables<br />
+        complete the code prints the sum of two variables</p>
+      <div class="code-block">
+        <code>
+            #include < stdio ><br/>
+            using namespace std;<br/><br/>
+
+            int main()<br/>
+            {<br/>
+              //your code here,<br/> //declare two integer variables named a and b <br/><br/>
+              cout << a+b << endl;<br/>
+              return 0;<br/>
+            }
+          </code>
+      </div>
+    </section>
+
+    <section class="main-section" id="Function">
+      <header>Function</header>
+      <p>Some useful tips about functions</p>
+      <p>test functions by creating a function named sum, that takes two integer variables and return the sum as integer
+      </p>
+      <div class="code-block">
+        <code>
+            #include < stdio ><br/>
+            using namespace std;<br/><br/>
+            //your code here <br/><br/>
+            int main()<br/>
+            {<br/>
+              cout << sum(26+47) << endl;<br/>
+              return 0;<br/>
+            }
+          </code>
+      </div>
+      <li>Overload the function by increasing the number of arguments</li>
+      <li>Overload the function by changing the argument value type</li>
+      <li>Overload the function by changing the return value type</li>
+    </section>
+
+    <section class="main-section" id="Structs">
+      <header>Structs</header>
+      <p>Some useful tips structs</p>
+      <p>create a struct named phone, that has a string variable named name and integer variable named phone_num </p>
+      <div class="code-block">
+        <code>
+            #include < stdio ><br/>
+            using namespace std;<br/><br/>
+            //your code here<br/><br/>
+            int main()<br/>
+            {<br/>
+              cout << "name: "<< phone.name <<"\nPhone number: " << phone.phone_num << endl;<br/>
+              return 0;<br/>
+            }
+          </code>
+      </div>
+      <li>Change the struct to a class</li>
+    </section>
+
+    <section class="main-section" id="Class">
+      <header>Class</header>
+      <p>Some useful tips about classes</p>
+      <p>create a class called phone that stores a phone book, and has a function called call, that displays the
+        contents of class in a readable format</p>
+      <div class="code-block">
+        <code>
+            #include < stdio ><br/>
+            using namespace std;<br/><br/>
+            //your class code here<br/><br/>
+            int main()<br/>
+            {<br/>
+              //your class declaration here<br/>
+              phone.call();<br/>
+              return 0;<br/>
+            }
+          </code>
+      </div>
+      <li>implement the getter and setter methods/functions</li>
+      <li>overload the cout method, so that the class displays all the varibles in a neat format</li>
+      <li>Another tip</li>
+    </section>
+  </main>
+</body>
+
+</html>
